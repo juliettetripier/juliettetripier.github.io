@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('/static/fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
-        url('/static/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
+        url('/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/static/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'),
-        url('/static/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    src: url('/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype'),
+        url('/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
 }
 
 header {
