@@ -41,31 +41,6 @@ jobs:
       - run: python compile_templates.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Compile homepage
-        uses: cuchi/jinja2-action@v1.2.2
-        with:
-          template: ./templates/homepage.html
-          output_file: ./static/index.html
-      - name: Compile homepage
-        uses: cuchi/jinja2-action@v1.2.2
-        with:
-          template: ./templates/contact.html
-          output_file: ./static/contact.html
-      - name: Compile homepage
-        uses: cuchi/jinja2-action@v1.2.2
-        with:
-          template: ./templates/projects.html
-          output_file: ./static/projects.html
-      - name: Compile homepage
-        uses: cuchi/jinja2-action@v1.2.2
-        with:
-          template: ./templates/resume.html
-          output_file: ./static/resume.html
-      - name: Compile homepage
-        uses: cuchi/jinja2-action@v1.2.2
-        with:
-          template: ./templates/skills.html
-          output_file: ./static/skills.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
