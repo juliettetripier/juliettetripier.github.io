@@ -36,31 +36,31 @@ jobs:
       - name: Compile homepage
         uses: cuchi/jinja2-action@v1.2.2
         with:
-          template: ./static/templates/homepage.html
+          template: ./templates/homepage.html
           output_file: ./static/index.html
           strict: true
       - name: Compile homepage
         uses: cuchi/jinja2-action@v1.2.2
         with:
-          template: ./static/templates/contact.html
+          template: ./templates/contact.html
           output_file: ./static/contact.html
           strict: true
       - name: Compile homepage
         uses: cuchi/jinja2-action@v1.2.2
         with:
-          template: ./static/templates/projects.html
+          template: ./templates/projects.html
           output_file: ./static/projects.html
           strict: true
       - name: Compile homepage
         uses: cuchi/jinja2-action@v1.2.2
         with:
-          template: ./static/templates/resume.html
+          template: ./templates/resume.html
           output_file: ./static/resume.html
           strict: true
       - name: Compile homepage
         uses: cuchi/jinja2-action@v1.2.2
         with:
-          template: ./static/templates/skills.html
+          template: ./templates/skills.html
           output_file: ./static/skills.html
           strict: true
       - name: Upload artifact
