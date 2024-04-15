@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 
 #projects-container {
     display: flex;
+    flex-direction: row;
 }
 
 #eggsplorer-div {
@@ -75,8 +76,13 @@ h1, h2, h3, h4, h5 {
 }
 
 #tron-div {
+    width: 50%;
     display: flex;
     flex-direction: column;
+}
+
+.project-div {
+    box-sizing: border-box;
 }
 
 .project-title {
