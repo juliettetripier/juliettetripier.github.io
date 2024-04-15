@@ -62,3 +62,17 @@ h1, h2, h3, h4, h5 {
     width: 50px;
 }
 
+/* Projects section */
+
+#projects-container {
+    display: flex;
+}
+
+#eggsplorer-div {
+    width: 50%;
+}
+
+#carouselExampleIndicators {
+    width: 80%;
+    margin: auto;
+}
