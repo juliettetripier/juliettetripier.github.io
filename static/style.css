@@ -69,20 +69,11 @@ h1, h2, h3, h4, h5 {
     flex-direction: row;
 }
 
-#eggsplorer-div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-#tron-div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
 .project-div {
     box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-title {
