@@ -72,6 +72,12 @@ h1, h2, h3, h4, h5 {
     width: 50%;
 }
 
+.project-title {
+    margin: auto;
+    text-transform: capitalize;
+}
+
 .project-image {
+    width: 80%;
     margin: auto;
 }
