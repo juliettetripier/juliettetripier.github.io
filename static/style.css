@@ -44,7 +44,12 @@ nav {
     align-items: center;
     justify-content: center;
     margin: auto;
-    
+    width: 50%;
+}
+
+#navbar-links {
+    margin: auto;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
