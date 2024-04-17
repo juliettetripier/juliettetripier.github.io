@@ -2,21 +2,33 @@
 {% block title %}Contact Me{% endblock %}
 
 {% block body %}
-<h2>Contact Me</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-4 section-header-div">
+            <h1 class="section-header">Contact Me</h1>
+        </div>
+        <div class="col-12 col-lg-8 mt-lg-4" id="contact-method-div">
+            <div class="row">
+                <div class="col-6 contact-method">
+                    <img src="/img/icons/github.png" alt="Github logo" class="icon">
+                    <a href="https://github.com/juliettetripier" class="contact-method-link">juliettetripier</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 contact-method">
+                    <img src="/img/icons/linkedin.png" alt="LinkedIn logo" class="icon">
+                    <a href="https://www.linkedin.com/in/juliette-tripier/" class="contact-method-link">juliettetripier</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 contact-method">
+                    <img src="/img/icons/email.png" alt="Email logo" class="icon">
+                    <a href="mailto:juli.tripier@gmail.com" class="contact-method-link">juli.tripier@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div>
-    <div>
-        <img src="/img/icons/github.png" alt="Github logo" class="icon">
-        <a href="https://github.com/juliettetripier">GitHub</a>
-    </div>
-    <div>
-        <img src="/img/icons/linkedin.png" alt="LinkedIn logo" class="icon">
-        <a href="https://www.linkedin.com/in/juliette-tripier/">LinkedIn</a>
-    </div>
-    <div>
-        <img src="/img/icons/email.png" alt="Email logo" class="icon">
-        <a href="mailto:juli.tripier@gmail.com">Email</a>
-    </div>
 </div>
 
 {% endblock %}
