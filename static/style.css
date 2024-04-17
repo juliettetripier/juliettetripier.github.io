@@ -50,14 +50,49 @@ nav {
     height: 25px;
 }
 
+.section-header {
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.not-capitalized {
+    text-transform: none;
+}
 
 h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.section-header {
-    padding: 20px;
+.larger-text {
+    font-size: 1.5em;
+}
+
+/* Homepage section */
+
+.homepage-icon {
+    margin: 10px 10px 0px 0px;
+    height: 45px;
+}
+
+#homepage-icons-div {
+    display: flex;
+    align-items: center;
+}
+
+#github-icon {
+    height: 42px;
+}
+
+#bio {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Skills section */

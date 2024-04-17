@@ -2,9 +2,37 @@
 {% block title %}Juliette Tripier{% endblock %}
 
 {% block body %}
-
-    <h1 class="section-header">Hello</h1>
-
-    <p>Here is some text!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 centered">
+            <h1 class="section-header">Juliette Tripier</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 centered">
+            <h3 class="not-capitalized">Software Engineer</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 centered" id="homepage-icons-div">
+            <a href="https://github.com/juliettetripier">
+            <img src="/img/icons/github.png" alt="github icon" class="homepage-icon" id="github-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/juliette-tripier/">
+                <img src="/img/icons/linkedin.png" alt="linkedin icon" class="homepage-icon">
+            </a>
+            <a href="mailto:juli.tripier@gmail.com">
+                <img src="/img/icons/email.png" alt="email icon" class="homepage-icon">
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 offset-2 centered" id="bio">
+            <p class="larger-text">Howdy! Here is some text. This text is informative and useful. It spans multiple lines, even.</p>
+            <br/>
+            <p class="larger-text">Here is a second paragraph.</p>
+        </div>
+    </div>
+</div>
     
 {% endblock %}
