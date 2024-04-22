@@ -2,63 +2,69 @@
 {% block title %}Projects{% endblock %}
 
 {% block body %}
-
-    <h1 class="section-header">Projects</h1>
-
-    <div id="projects-container">
-        <div id="eggsplorer-div" class="project-div">
-            <h3 class="project-title">Eggsplorer</h3>
-            <img src="/img/eggsplorer/eggsplorer1.png" alt="Screencap of Eggsplorer homepage" class="project-image">
-            <div>
-                <a class="btn btn-primary" role="button" href="https://github.com/juliettetripier/Hackbright-Project/blob/main/README.md">README</a>
-                <a class="btn btn-primary" role="button" href="https://github.com/juliettetripier/Hackbright-Project">Github Repo</a> 
-            </div>
-            <div>
-                <p>Eggsplorer is a full-stack, Python-based Flask application that allows users to find new restaurants and track their restaurant visits.</p>
-                <p>Features include:</p>
-                <ul>
-                    <li>User creation and login</li>
-                    <li>Restaurant search via Yelp Fusion API</li>
-                    <li>User-created wishlists and system for tracking restaurant visits</li>
-                    <li>Tagging system for restaurants</li>
-                    <li>User achievements and achievement leaderboard</li>
-                    <li>Unlockable cosmetics for site mascot</li>
-                </ul>
-            </div>
-            <div>
-                <h5>Technologies</h5>
-                <p><strong>Front End:</strong> HTML, CSS, Jinja2, JavaScript (AJAX, JSON), Bootstrap, Flexbox</p>
-                <p><strong>Back End:</strong> Python, Flask, Yelp Fusion API</p>
-                <p><strong>Database:</strong> PostgreSQL, SQLAlchemy</p>
-            </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-4 col-xl-3 header-background">
+            <h1 class="section-header">Projects</h1>
         </div>
-        <div id="tron-div" class="project-div">
-            <h3 class="project-title">Multiplayer Tron</h3>
-            <img src="/img/tron/tron.png" alt="Screencap of Tron game" class="project-image">
-            <div>
-                <a class="btn btn-primary" role="button" href="https://poised-brook-chartreuse.glitch.me">Site</a>
-                <a class="btn btn-primary" role="button" href="https://github.com/juliettetripier/multiplayer_tron">Github Repo</a>
-            </div>
-            <div>
-                <p>Multiplayer Tron is a Tron clone built from scratch using pure JavaScript and socket-based networking for remote multiplayer capabilities. This project is still in progress.</p>
-                <p><strong>Completed features</strong></p>
-                <ul>
-                    <li>Collision detection</li>
-                    <li>Win vs. loss detection</li>
-                    <li>Single-player game flow versus an AI opponent</li>
-                </ul>
-                <p><strong>In progress</strong></p>
-                <ul>
-                    <li>Multiplayer lobby</li>
-                    <li>Multiplayer game flow</li>
-                </ul>
-            </div>
-            <div>
-                <h5>Technologies</h5>
-                <p><strong>Front End:</strong> HTML, CSS, JavaScript</p>
-                <p><strong>Back End:</strong> Node.js, Fastify, Websocket</p>
+        <div class="col-12 col-lg-8 mt-lg-5 content-div" id="projects-container">
+            <div class="row">
+                <div id="eggsplorer-div" class="col-12 col-md-5 project-div">
+                    <h3 class="project-title mx-auto">Eggsplorer</h3>
+                    <img src="/img/eggsplorer/eggsplorer1.png" alt="Screencap of Eggsplorer homepage" class="project-image mx-auto">
+                    <div>
+                        <a class="btn btn-primary project-button" role="button" href="https://www.youtube.com/watch?v=rhc7XCFqZMY">Demo</a>
+                        <a class="btn btn-primary project-button" role="button" href="https://github.com/juliettetripier/Hackbright-Project">Github Repo</a> 
+                    </div>
+                    <div>
+                        <p>Eggsplorer is a full-stack, Python-based Flask application that allows users to find new restaurants and track their restaurant visits.</p>
+                        <p><strong>Features</strong></p>
+                        <ul>
+                            <li>User creation and login</li>
+                            <li>Restaurant search via Yelp Fusion API</li>
+                            <li>User-created wishlists and system for tracking restaurant visits</li>
+                            <li>Tagging system for restaurants</li>
+                            <li>User achievements and achievement leaderboard</li>
+                            <li>Unlockable cosmetics for site mascot</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Technologies</h5>
+                        <p><strong>Front End:</strong> HTML, CSS, Jinja2, JavaScript (AJAX, JSON), Bootstrap, Flexbox</p>
+                        <p><strong>Back End:</strong> Python, Flask, Yelp Fusion API</p>
+                        <p><strong>Database:</strong> PostgreSQL, SQLAlchemy</p>
+                    </div>
+                </div>
+                <div id="tron-div" class="col-12 col-md-5 offset-md-1 project-div">
+                    <h3 class="project-title mx-auto">Multiplayer Tron</h3>
+                    <img src="/img/tron/tron.png" alt="Screencap of Tron game" class="project-image mx-auto">
+                    <div>
+                        <a class="btn btn-primary project-button" role="button" href="https://poised-brook-chartreuse.glitch.me">Site</a>
+                        <a class="btn btn-primary project-button" role="button" href="https://github.com/juliettetripier/multiplayer_tron">Github Repo</a>
+                    </div>
+                    <div>
+                        <p>Multiplayer Tron is a Tron clone built from scratch using pure JavaScript and socket-based networking for remote multiplayer capabilities. This project is still in progress.</p>
+                        <p><strong>Completed features</strong></p>
+                        <ul>
+                            <li>Collision detection</li>
+                            <li>Win vs. loss detection</li>
+                            <li>Single-player game flow versus an AI opponent</li>
+                            <li>Multiplayer lobby</li>
+                        </ul>
+                        <p><strong>In progress</strong></p>
+                        <ul>
+                            <li>Multiplayer game flow</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Technologies</h5>
+                        <p><strong>Front End:</strong> HTML, CSS, JavaScript</p>
+                        <p><strong>Back End:</strong> Node.js, Fastify, Websocket</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 
 {% endblock %}
