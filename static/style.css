@@ -110,14 +110,9 @@ nav {
     height: 2rem;
 }
 
-@media (min-width: 992px) {
-    .content-div {
-        padding-left: 20px;
-    }
-}
-
 .content-div {
     margin-top: 30px;
+    padding-left: var(--left-margin);
 }
 
 .centered {
