@@ -1,3 +1,8 @@
+:root {
+    --left-margin: calc(1rem + 20px);
+    --cmy-gradient: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,255,0,1) 100%);
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
@@ -27,7 +32,9 @@ body {
 nav {
     background-color: #FFFFFF;
     height: 70px;
-    box-shadow: 1px 1px 10px grey;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-image: var(--cmy-gradient) 1;
 }
 
 .navbar-collapse {
@@ -51,22 +58,58 @@ nav {
 }
 
 .section-header {
+    display: inline-block;
     padding: 20px 0px;
     margin-top: 10px;
+    width: 270px;
+    padding-left: var(--left-margin);
 }
 
 @media (min-width: 992px) {
     .header-background {
-        background-color: #f5f5f5;
         min-height: 100vh;
-        padding-left: 30px;
     }
+}
+
+.cmy-logo-container {
+    display: inline;
+    position: relative;
+    top: 2px;
+}
+
+.cmy-logo {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.cmy-logo > :first-child {
+    background-color: cyan;
+    width: 10px;
+    height: 2rem;
+    margin-right: 3px;
+}
+
+.cmy-logo > :nth-child(2) {
+    background-color: magenta;
+    width: 10px;
+    height: 2rem;
+    margin-right: 3px;
+}
+
+.cmy-logo > :nth-child(3) {
+    background-color: yellow;
+    width: 10px;
+    height: 2rem;
 }
 
 @media (min-width: 992px) {
     .content-div {
-        padding-left: 40px;
+        padding-left: 20px;
     }
+}
+
+.content-div {
+    margin-top: 30px;
 }
 
 .centered {
@@ -76,8 +119,8 @@ nav {
 
 @media (max-width: 992px) {
     .background-small {
-        background-color: #f5f5f5;
         padding-top: 10px;
+        padding-left: var(--left-margin);
     }
 }
 
@@ -90,13 +133,29 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
 }
 
+a {
+    color: magenta;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 .detail-header {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .larger-text {
     font-size: 1.5em;
+}
+
+.btn {
+    color: black;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    box-shadow: 2px 3px 3px #d4d4d7;
 }
 
 /* Homepage section */
@@ -104,6 +163,11 @@ h1, h2, h3, h4, h5 {
 .homepage-icon {
     margin: 10px 10px 0px 0px;
     height: 45px;
+}
+
+#homepage-header {
+    margin-top: 10px;
+    padding: 20px 0px;
 }
 
 #homepage-icons-div {
@@ -121,7 +185,6 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #f5f5f5;
 }
 
 /* Skills section */
@@ -164,68 +227,39 @@ h1, h2, h3, h4, h5 {
     flex-direction: row;
 }
 
-#projects-row {
-    justify-content: center;
-}
-
 .project-div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 2px solid #f5f5f5;
     margin-bottom: 50px;
-}
-
-@media (min-width: 767px) {
-    #eggsplorer-div {
-        margin-right: 15px;
-    }
-}
-
-@media (min-width: 992px) {
-    #eggsplorer-div {
-        margin-right: 20px;
-    }
-}
-
-@media (min-width: 1200px) {
-    #eggsplorer-div {
-        margin-right: 30px;
-    }
-}
-
-@media (min-width: 767px) {
-    #tron-div {
-        margin-left: 15px;
-    }
-}
-
-@media (min-width: 992px) {
-    #tron-div {
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 1200px) {
-    #tron-div {
-        margin-left: 30px;
-    }
+    padding-bottom: 35px;
 }
 
 .project-title {
-    text-transform: capitalize;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .project-image {
+    min-width: 300px;
     width: 80%;
 }
 
 .project-button {
     margin-top: 15px;
-    margin-bottom: 10px;
-    margin-right: 5px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.project-desc {
+    max-width: 80%;
+}
+
+.project-item {
+    margin-bottom: 0.25rem;
+}
+
+#eggsplorer-image {
+    border: 1px solid #d4d4d7;
 }
 
 /* Resume section */
