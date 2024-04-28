@@ -127,7 +127,6 @@ nav {
 
 @media (max-width: 992px) {
     .background-small {
-        padding-top: 10px;
         padding-left: var(--left-margin);
     }
 }
@@ -290,6 +289,12 @@ a:hover {
 #resume-button {
     width: 200px;
     margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+    #resume-button {
+        margin-top: 0px;
+    }
 }
 
 #resume-button:hover {
