@@ -27,7 +27,7 @@ body {
 nav {
     background-color: #FFFFFF;
     height: 70px;
-    box-shadow: 0px 4px 0px #f5f5f5;
+    box-shadow: 1px 1px 10px grey;
 }
 
 .navbar-collapse {
@@ -59,6 +59,7 @@ nav {
     .header-background {
         background-color: #f5f5f5;
         min-height: 100vh;
+        padding-left: 30px;
     }
 }
 
@@ -124,6 +125,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Skills section */
+
+.grid-container {
+    max-width: 75%;
+}
 
 .grid {
     display: grid;
