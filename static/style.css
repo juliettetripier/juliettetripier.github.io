@@ -75,13 +75,7 @@ nav {
 
 @media (max-width: 576px) {
     .section-header {
-        width: 300px;
-    }
-}
-
-@media (min-width: 992px) {
-    .header-background {
-        min-height: 100vh;
+        width: 500px;
     }
 }
 
