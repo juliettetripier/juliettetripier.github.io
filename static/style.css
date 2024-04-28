@@ -53,6 +53,14 @@ nav {
     margin-left: 20px;
 }
 
+#navbar-name:hover {
+    color: cyan;
+}
+
+.nav-link:hover {
+    color: magenta;
+}
+
 #navbar-icon {
     height: 25px;
 }
@@ -250,6 +258,16 @@ a:hover {
     margin-right: 10px;
 }
 
+.project-button-1:hover {
+    background-color: cyan;
+    border: 1px solid cyan;
+}
+
+.project-button-2:hover {
+    background-color: magenta;
+    border: 1px solid magenta;
+}
+
 .project-desc {
     max-width: 80%;
 }
@@ -272,6 +290,11 @@ a:hover {
 #resume-button {
     width: 200px;
     margin-top: 10px;
+}
+
+#resume-button:hover {
+    background-color: cyan;
+    border: 1px solid cyan;
 }
 
 #embedded-resume {
