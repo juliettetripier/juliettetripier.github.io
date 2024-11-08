@@ -224,13 +224,17 @@ a:hover {
 
 /* Projects section */
 
-.card-columns {
-    column-count: 2;
-}
-
 #projects-container {
     display: flex;
     flex-direction: row;
+}
+
+.project-card {
+    margin-bottom: 3rem;
+}
+
+.project-card:last-child {
+    margin-bottom: 0;
 }
 
 .project-div {
@@ -264,6 +268,11 @@ a:hover {
 .project-button-2:hover {
     background-color: magenta;
     border: 1px solid magenta;
+}
+
+.project-button-3:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
 }
 
 .project-desc {
