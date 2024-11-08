@@ -224,6 +224,10 @@ a:hover {
 
 /* Projects section */
 
+.card-columns {
+    column-count: 2;
+}
+
 #projects-container {
     display: flex;
     flex-direction: row;
