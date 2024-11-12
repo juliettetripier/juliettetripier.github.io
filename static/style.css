@@ -263,16 +263,20 @@ a:hover {
 .project-button-1:hover {
     background-color: cyan;
     border: 1px solid cyan;
+    box-shadow: none;
 }
 
 .project-button-2:hover {
     background-color: magenta;
     border: 1px solid magenta;
+    box-shadow: none;
 }
 
 .project-button-3:hover {
     background-color: yellow;
     border: 1px solid yellow;
+    color: black;
+    box-shadow: none;
 }
 
 .project-desc {
@@ -308,6 +312,7 @@ a:hover {
 #resume-button:hover {
     background-color: cyan;
     border: 1px solid cyan;
+    box-shadow: none;
 }
 
 #embedded-resume {
