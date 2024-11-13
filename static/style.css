@@ -233,10 +233,6 @@ a:hover {
     margin-bottom: 3rem;
 }
 
-.project-card:last-child {
-    margin-bottom: 0;
-}
-
 .project-div {
     display: flex;
     flex-direction: column;
@@ -254,10 +250,22 @@ a:hover {
     width: 80%;
 }
 
+.tag-label {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: .5rem;
+}
+
+.project-tag {
+    display: inline;
+    font-style: italic;
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
+
 .project-button {
-    margin-top: 15px;
-    margin-bottom: 25px;
-    margin-right: 10px;
+    margin-right: .5rem;
 }
 
 .project-button-1:hover {
