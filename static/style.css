@@ -73,11 +73,18 @@ nav {
     padding-left: var(--left-margin);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 991px) {
     .section-header {
         width: 500px;
     }
 }
+
+@media (min-width: 991px) {
+    .section-header-smaller {
+        font-size: 2em;
+    }
+}
+
 
 .cmy-logo-container {
     display: inline;
