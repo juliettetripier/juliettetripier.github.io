@@ -145,8 +145,7 @@ a:hover {
 }
 
 .detail-header {
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .larger-text {
@@ -287,12 +286,40 @@ a:hover {
     box-shadow: none;
 }
 
+.project-section {
+    margin-bottom: 2rem;
+}
+
 .project-desc {
     max-width: 80%;
 }
 
 .project-item {
     margin-bottom: 0.25rem;
+}
+
+.carousel {
+    margin-bottom: 1rem;
+}
+
+.carousel-inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 2rem;
+}
+
+.carousel-image {
+    height: 25rem;
+    object-fit: contain;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
 #eggsplorer-image {
