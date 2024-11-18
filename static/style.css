@@ -297,6 +297,16 @@ a:hover {
     margin-bottom: 2rem;
 }
 
+.no-bottom-padding {
+    margin-bottom: 0rem;
+}
+
+@media (min-width: 768px) {
+    .no-bottom-padding-lg {
+        margin-bottom: 0rem;
+    }
+}
+
 .project-desc {
     max-width: 80%;
 }
