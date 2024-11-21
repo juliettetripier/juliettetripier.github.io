@@ -400,3 +400,11 @@ a:hover {
     margin-left: 20px;
     font-size: 1.2em;
 }
+
+/* 
+/*
+/* Mobile Layout */
+
+@media (max-width: 600px) {
+
+}
