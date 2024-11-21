@@ -209,6 +209,15 @@ a:hover {
     padding-bottom: 50px;
 }
 
+@media (max-width: 600px) {
+    .grid-container {
+        max-width: 100%;
+    }
+    .grid {
+        grid-template-columns: auto auto;
+    }
+}
+
 .grid-header {
     padding-bottom: 10px;
 }
@@ -399,12 +408,4 @@ a:hover {
 .contact-method-link {
     margin-left: 20px;
     font-size: 1.2em;
-}
-
-/* 
-/*
-/* Mobile Layout */
-
-@media (max-width: 600px) {
-
 }
