@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% block title %}CIB Mango Tree{% endblock %}
+
+{% block body %}
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="header-background">
+            <h1 class="section-header">CIB Mango Tree
+                <div class="cmy-logo-container">
+                    <span class="cmy-logo">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </span>
+                </div>
+            </h1>
+        </div>
+
+        <div class="col-11 col-lg-8 ml-4 content-div">
+            <div class="project-section">
+                <h4 class="detail-header">Summary</h4>
+                <p class="project-desc">
+                    CIB Mango Tree is a project sponsored by my volunteer group, 
+                    <a href="https://www.civictechdc.org/">Civic Tech DC</a>. 
+                </p>
+                <p class="project-desc">
+                    CIB Mango Tree is a collaborative, open-source software tool to detect 
+                    coordinated inauthentic behavior (CIB) in online datasets.
+                </p>
+                <p class="project-desc">
+                    The CIB Mango Tree project is split into two main parts: the website, which serves 
+                    primarily as an educational resource, and the CLI tool itself, which contains the battery of tests 
+                    designed to measure CIB activity.
+                </p>
+                <p class="project-desc">
+                    I serve as a member of the web development team and am mainly responsible for translating our 
+                    Figma layouts into code. I also work alongside the CLI team to develop offline HTML output for our 
+                    analysis tools.
+                </p>
+                <a href="https://cib-mango-tree.github.io/CIB-Mango-Tree-Website/" class="btn btn-primary project-button project-button-2">Site</a>
+                <a href="https://github.com/CIB-Mango-Tree/CIB-Mango-Tree-Website" class="btn btn-primary project-button project-button-3">Code</a>
+            </div>
+            <div class="section-separator"></div>
+            <div>
+                <h4 class="detail-header">Images</h4>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 carousel-image" src="/img/huedoku/huedoku1.png" alt="Huedoku gameplay screenshot">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 carousel-image" src="/img/huedoku/huedoku2.png" alt="Color selection screenshot">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 carousel-image" src="/img/huedoku/huedoku3.png" alt="Repeated tiles screenshot">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="section-separator"></div>
+            <div class="row">
+                <div class="col-12 col-md-5 project-section no-bottom-padding-lg">
+                    <h4 class="detail-header">Features</h4>
+                    <p class="project-item">Sudoku generation logic</p>
+                    <p class="project-item">Repeated tiles instantly highlighted</p>
+                    <p class="project-item">Difficulty modes</p>
+                    <p class="project-item">Scorekeeping</p>
+                    <p class="project-item">Win detection</p>
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 project-section no-bottom-padding">
+                    <h4 class="detail-header">Technologies</h4>
+                    <p class="project-item">
+                        <strong>Front End:</strong> 
+                        TypeScript, React, Mantine
+                    </p>
+                    <br>
+                    <p class="project-item">
+                        <strong>Back End:</strong> 
+                        Next.js
+                    </p>
+                </div>
+            </div>
+            <div class="section-separator"></div>
+            <div class="row">
+                <div class="col-12 col-md-5 project-section">
+                    <a href="/projects.html">Back to Projects</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
